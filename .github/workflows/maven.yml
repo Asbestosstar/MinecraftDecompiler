@@ -17,7 +17,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    if: github.repository == 'MaxPixelStudios/MinecraftDecompiler'
+    if: github.repository == 'Asbestosstar/MinecraftDecompiler'
     permissions:
       packages: write
       contents: write
